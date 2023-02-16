@@ -1,33 +1,33 @@
 "use client";
 
 import { Box, Flex, HStack, Text, Icon } from "@chakra-ui/react";
-import { EmailIcon } from '@chakra-ui/icons'
-
+import { EmailIcon, PhoneIcon, Search2Icon, QuestionIcon } from "@chakra-ui/icons";
 
 
 export default function TopBar() {
   return (
-    <Box width={"full"} bg="purple.700" minH="45">
+    <Box width={"full"} bg="purple.700" >
       <Flex
-        px={["20", "20", "40"]}
+        px={["15", "20", "40"]}
         alignItems={"center"}
-        minH="45"
+        minH={"55"}
         justifyContent={"space-between"}
         direction={["column", "row", "row"]}
         textColor={"white"}
         fontWeight={"normal"}
         fontSize={['sm', 'md', 'md']}
+        py='1'
       >
         <Box>
           <Text> <EmailIcon /> info@example.com</Text>
         </Box>
 
-        <HStack spacing={3}>
-          <Text>  Branches</Text>
+        <HStack spacing={3} >
+          <Text> <Search2Icon boxSize={['3.5','4']}  /> Branches</Text>
           <Text>|</Text>
-          <Text>Stores</Text>
+          <Text> <QuestionIcon boxSize={['3.5','4']} /> Stores</Text>
           <Text>|</Text>
-          <Text>Contact US</Text>
+          <Text> <Icon as={PhoneIcon} boxSize={['3.5','4']}  /> Contact US</Text>
         </HStack>
       </Flex>
     </Box>
