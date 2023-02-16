@@ -72,9 +72,3 @@ export default function MobileView() {
 
 
 
-
-                //     <Text fontSize={["sm", "sm", "sm", "sm", "md"]} fontWeight={'semibold'}>How it Works</Text>
-                //     <Heading fontSize={["sm", "sm", "sm", "sm", "md"]} fontWeight={'semibold'}>Crypto</Heading>
-                //     <Heading fontSize={["sm", "sm", "sm", "sm", "md"]} fontWeight={'semibold'}>Marketplace</Heading>
-                //    <Heading fontSize={["sm", "sm", "sm", "sm", "md"]} fontWeight={'semibold'}>Sign In</Heading>
-
