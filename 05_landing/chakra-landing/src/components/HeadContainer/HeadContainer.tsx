@@ -18,10 +18,10 @@ export default function HeadContainer() {
 
             <Box width={["100%", "50%" ,"50%"]} py="8" textAlign={['center', 'left', 'left']}  px={[ '0', '0', "0", "0", "32"]}>
 
-                <Heading as="h1" fontSize={["3xl", "3xl", "3xl", "4xl", "5xl"]} pb="4" justifyContent={'center'}>
+                <Heading as="h1" fontSize={["3xl", "3xl", "3xl", "4xl", "5xl"]} pb="4" pr='4' justifyContent={'center'}>
                     Build this rad landing page from scratch
                 </Heading>
-                <Text as="h3" lineHeight={'6'} pb="4" fontSize={'lg'}>
+                <Text as="h3" lineHeight={'6'} pb="4" fontSize={'lg'} pr='5'>
                     This is the subheader section where you describe the basic benefits of
                     your product.
                 </Text>
